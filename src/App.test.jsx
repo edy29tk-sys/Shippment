@@ -2,8 +2,9 @@ import { expect, test } from 'vitest';
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('renders app header', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeDefined();
+  // The app header contains the app name 'Hands of Hope Shipping'
+  const header = screen.getByText(/hands of hope shipping/i);
+  expect(header).toBeDefined();
 });
