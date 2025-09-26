@@ -1,5 +1,7 @@
 # GitHub Codespaces ♥️ React
 
+[![CI](https://github.com/edy29tk-sys/Shippment/actions/workflows/ci.yml/badge.svg)](https://github.com/edy29tk-sys/Shippment/actions)
+
 Welcome to your shiny new Codespace running React! We've got everything fired up and running for you to explore React.
 
 This project was bootstrapped with Vite and includes a starter React app. Below are the available scripts and some next steps/roadmap included from the remote.
